@@ -103,7 +103,7 @@ function esPar(num) {
   // Tu código:
 if (num % 2 === 0){
   return true;
-} else{
+}else {
   return false;
 }
 
@@ -115,9 +115,9 @@ function esImpar(num) {
   // Tu código:
 if(num % 2 === 1){
   return true;
-} else {
-  return false;
-  }
+}else {
+ return false;
+}
 
 }
 
@@ -165,9 +165,9 @@ function esPositivo(numero) {
   //Si el número es 0, devuelve false
 if (numero ===0){
   return false;
-} else if (numero > 0){
+}else if (numero > 0){
   return "Es positivo"
-} else {
+}else {
   return "Es negativo"
 }
 
@@ -185,7 +185,7 @@ function combinarNombres(nombre, apellido) {
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
 var combinado = nombre + " " + apellido;
-  return combinado;
+return combinado;
 }
 
 function obtenerSaludo(nombre) {
@@ -204,14 +204,14 @@ return alto * ancho;
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
-  return lado * 4;
+return lado * 4;
 }
 
 
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
-  return (base*altura)/2;
+return (base*altura)/2;
 
 }
 
@@ -219,7 +219,7 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
- return euro * 1.20 ;
+return euro * 1.20 ;
 }
 
 function esVocal(letra){
@@ -230,15 +230,15 @@ function esVocal(letra){
   //Escribe tu código aquí
 if (letra.length > 1){
   return "Dato incorrecto"
-} else if(
+}else if (
   letra === "a" ||
   letra === "e" ||
   letra === "i" ||
   letra === "o" ||
   letra === "u"
-  ) {
+) {
   return "Es vocal";
-} else {
+}else {
   return "Dato incorrecto"
 }
   
